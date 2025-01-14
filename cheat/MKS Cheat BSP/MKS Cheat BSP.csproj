@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52F273D5-1E51-468A-9517-DF986E947789}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MKS Cheat BSP</RootNamespace>
+    <AssemblyName>MKS Cheat BSP</AssemblyName>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\hujzdupybtw\maicjaload\Dependencies\Il2CppAssemblyGenerator\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="DiscordRPC">
+      <HintPath>..\..\..\hujzdupybtw\bibliotekiuzytkownikow\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppACTk.Runtime" />
+    <Reference Include="Il2CppCinemachine" />
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\hujzdupybtw\maicjaload\Dependencies\SupportModules\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Il2CppSmartFox2X" />
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\hujzdupybtw\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebClient">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Net.WebClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>c:\program files\dotnet\shared\Microsoft.NETCore.App\6.0.33\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.UI" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-Module-{5D8AA375-A4D4-4315-A372-FC579A98B68B}.cs" />
+    <Compile Include="ak.cs" />
+    <Compile Include="AT.cs" />
+    <Compile Include="B0.cs" />
+    <Compile Include="cheat\If.cs" />
+    <Compile Include="EA.cs" />
+    <Compile Include="EeE.cs" />
+    <Compile Include="GR.cs" />
+    <Compile Include="Hh.cs" />
+    <Compile Include="in.cs" />
+    <Compile Include="jG.cs" />
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="MKS\Battle\Bev.cs" />
+    <Compile Include="MKS\Discord\aeX.cs" />
+    <Compile Include="MKS\Helpers\HjL.cs" />
+    <Compile Include="MKS\Helpers\leK.cs" />
+    <Compile Include="MKS\Helpers\WeI.cs" />
+    <Compile Include="MKS\Lobby\Pjq.cs" />
+    <Compile Include="MKS\Mining\bjS.cs" />
+    <Compile Include="MKS\Mining\fjp.cs" />
+    <Compile Include="MKS\Mining\Yj2.cs" />
+    <Compile Include="MKS\Parkour\KjC.cs" />
+    <Compile Include="MKS\Parkour\Vjg.cs" />
+    <Compile Include="MKS\Xd.cs" />
+    <Compile Include="MKS_Cheat_BSP\H3.cs" />
+    <Compile Include="MKS_Cheat_BSP\MN.cs" />
+    <Compile Include="mX.cs" />
+    <Compile Include="O4.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qY.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableAttribute.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableContextAttribute.cs" />
+    <Compile Include="tu.cs" />
+    <Compile Include="tw.cs" />
+    <Compile Include="UJ.cs" />
+    <Compile Include="UM.cs" />
+    <Compile Include="UO.cs" />
+    <Compile Include="wH.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="7x5m9i9fiw.nwvtxwphqt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
