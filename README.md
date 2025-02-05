@@ -1,6 +1,6 @@
 # `💣` Nice work (mks)
 > - the best team of retards 
-> - who the fuck makes laoder/cheat/modloader/discordbot inside .net
+> - who the fuck makes loader/cheat/modloader/discordbot inside .net
 better use eazfuscator for everything than just random ass shit that has deobfuscator
 up for like 3 months or so.
 
