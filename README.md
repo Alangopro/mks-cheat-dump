@@ -19,6 +19,7 @@ up for like 3 months or so.
 ![image](https://github.com/user-attachments/assets/78912366-3995-4dfd-be6d-a4a4af7cd14c)
 ![image](https://github.com/user-attachments/assets/19f05c01-80aa-4707-99af-8a63f15d3419)
 - shit ass auth
-
+![image](https://github.com/user-attachments/assets/4be6ff95-c116-4d19-9b09-08434e36a2b9)
+- gowno do gui
 
 🦘 KangarooLeaks - on Top!
