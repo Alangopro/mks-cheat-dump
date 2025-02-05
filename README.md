@@ -23,3 +23,4 @@ up for like 3 months or so.
 - shit ass gui
 
 🦘 KangarooLeaks - on Top!
+© KangarooLeaks - all rights resolved.
