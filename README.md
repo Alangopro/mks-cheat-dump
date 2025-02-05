@@ -4,7 +4,7 @@
 better use eazfuscator for everything than just random ass shit that has deobfuscator
 up for like 3 months or so.
 
->  as i said "anything that was made by humans can be cracked, so this is example of it"
+>  as i said "anything that was made by humans can be cracked", so this is example of it
 >  you can skid as much as you want from this shit, claiming it becouse this retards can't
 >  even add Terms of Service with rights that will prevent me from doing it.
 
